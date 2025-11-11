@@ -5,16 +5,86 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>My Profile</title>
+   <title>Claudia's Website</title>
  </head>
+
  <body>
-   <p>Example text</p>
-      <h2>Look, a picture of a silly dog!</h2>    
-   <img 
-       src="https://upload.wikimedia.org/wikipedia/commons/4/48/Silly_Dog_%282277051513%29.jpg"   
-       alt="A silly looking dog."
-       width="400px" 
-   />
- </body>
+     <header>
+       <div class="mobile-header">
+           <img src="./images/SkyImage.jpg" alt="A Picture of the Sky" class="hero">
+           <button type="button" class="hamburger-button">
+               <img class="hamburger-icon" src="./images/hamburger.svg"
+                   alt="Three horizontal lines, positioned one above the other." />
+           </button>
+       </div>
+       <nav class="desktop-nav" aria-label="Primary">
+           <ul>
+               <li>
+                   <a href="">Work</a>
+               </li>
+               <li>
+                   <a href="">Contact</a>
+               </li>
+           </ul>
+       </nav>
+       <nav class="mobile-nav display-none" aria-label="Primary">
+           <ul>
+               <li>
+                   <a href="">Work</a>
+               </li>
+               <li>
+                   <a href="">Contact</a>
+               </li>
+           </ul>
+       </nav>
+   </header>
+      <section class="hero">
+       <h1>Your superhuman front end developer.</h1>
+   </section>
+      <section class="articles-container">
+       <article>
+           <img class="icon" src="./images/Gradient 03.jpg"
+               alt="colourful gradient image" />
+           <h2>Project 1</h2>
+       </article>
+       <article>
+           <img class="icon" src="./images/Gradient 06.jpg"
+               alt="colourful gradient image" />
+           <h2>Project 2</h2>
+       </article>
+       <article>
+           <img class="icon" src="./images/Gradient 07.jpg"
+               alt="colourful gradient image" />
+           <h2>Project 3</h2>
+       </article>
+              <article>
+           <img class="icon" src="./images/Gradient 09.jpg"
+               alt="colourful gradient image" />
+           <h2>Project 4</h2>
+       </article>
+   </section>
+   <section class="contact-form">
+       <h2>Talk to me</h2>
+       <form>
+           <label for="your-name">Name</label>
+           <input type="text" id="your-name">
+           <label for="city">Email</label>
+           <input type="text" id="your-email-address">
+          <label for="message">Your Message</label>
+          <textarea name="message-text" id="message" rows="10"></textarea>
+          <a href="#" class="btn-primary">Send</a>
+       </form>
+   </section>
+  <footer>
+       <a href="" title="Instagram">
+           <img class="socials-icon" src="./images/Instagram-logo-48.png"
+               alt="The Instagram logo: a white outline of a rounded square camera" />
+       </a>
+       <a href="">
+           <img class="socials-icon" src="./images/Github-logo-48.png"
+               alt="The Github logo: a white circle with the outline of a white cat, with one tentacle arm" />
+       </a>
+   </footer>
+</body>
 
  </html>
