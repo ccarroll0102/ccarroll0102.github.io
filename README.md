@@ -1,6 +1,7 @@
-#  your_name_here - Portfolio Task
+#  Claudia Carroll - Portfolio Task
 ​
-[My portfolio site](link_to_your_site)
+[My portfolio site](ccarroll0102.github.io
+)
 ​
 ## Project Requirements
 
@@ -28,15 +29,15 @@ I have applied a cute little drop shadow on hover over my buttons as well as a c
 ​
 ### Screenshots
 > Home Page
-![Desktop](<127.0.0.1_5500_index.html (3).png>)
-![Tablet](<127.0.0.1_5500_index.html(iPad Pro).png>)
-![Mobile](<127.0.0.1_5500_index.html(iPhone 14 Pro Max).png>)
+![Desktop](<Home-Page-Desktop.png>)
+![Tablet](<Home-Page-Tablet.png>)
+![Mobile](<Home-Page-Mobile.png>)
 
 
 > Contact Form
-![Desktop](<127.0.0.1_5500_contact.html (1).png>)
-![Tablet](<127.0.0.1_5500_contact.html(iPad Pro).png>)
-![Mobile](<127.0.0.1_5500_contact.html(iPhone 14 Pro Max).png>)
+![Desktop](<Contact-Page-Desktop.png>)
+![Tablet](<Contact-Page-Tablet.png>)
+![Mobile](<Contact-Page-Mobile.png>)
 
 > Hover States
 ![Drop Shadow](<Button-hover.png>)
