@@ -29,15 +29,15 @@ I have applied a cute little drop shadow on hover over my buttons as well as a c
 ​
 ### Screenshots
 > Home Page
-![Desktop](<Home-Page-Desktop.png>)
-![Tablet](<Home-Page-Tablet.png>)
-![Mobile](<Home-Page-Mobile.png>)
+![Mobile](<127.0.0.1_5500_(iPhone 14 Pro Max).png>)
+![Tablet](<127.0.0.1_5500_(iPad Pro).png>)
+![Desktop](<127.0.0.1_5500_ (1).png>)
 
 
 > Contact Form
-![Desktop](<Contact-Page-Desktop.png>)
-![Tablet](<Contact-Page-Tablet.png>)
-![Mobile](<Contact-Page-Mobile.png>)
+![Desktop](<127.0.0.1_5500_contact.html (2).png>)
+![Tablet](<127.0.0.1_5500_contact.html(iPad Pro) (1).png>)
+![Mobile](<127.0.0.1_5500_(iPhone 14 Pro Max)-1.png>)
 
 > Hover States
 ![Drop Shadow](<Button-hover.png>)
