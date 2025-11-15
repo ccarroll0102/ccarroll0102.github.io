@@ -2,108 +2,108 @@
 <html lang="en">
 
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Claudia's Website</title>
-<link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Claudia's Website</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
   <header>
     <div class="mobile-header">
-    <button type="button" class="hamburger-button">
-    <img class="hamburger-icon" src="./img/hamburger.svg"
-    alt="Three horizontal lines, positioned one above the other." />
-    </button>
-<ul>
-  <li>
-    <a href="#" class="btn-secondary">Work</a>   
-  </li>
-  <li>
-    <a href="#" class="btn-secondary">Contact</a>
-  </li>
-</ul>
-<h3>Claudia Carroll</h3>
-</div>
-
-<nav class="desktop-nav" aria-label="Primary">
-<ul>
-  <li>
-    <a href="#" class="btn-secondary">Work</a>   
-  </li>
-  <li>
-    <a href="#" class="btn-secondary">Contact</a>
-  </li>
-</ul>
-<h3>Claudia Carroll</h3>
-</nav>
-
-<nav class="mobile-nav display-none" aria-label="Primary">
-  <ul>
-    <li>
-      <a href="#" class="btn-secondary">Work</a> 
-    </li>
-    <li>
-       <a href="#" class="btn-secondary">Work</a>
-    </li>
-    </ul>
+      <button type="button" class="hamburger-button">
+        <img class="hamburger-icon" src="./img/hamburger.svg"
+          alt="Three horizontal lines, positioned one above the other." />
+      </button>
+      <div class="header-buttons">
+        <a href="#" class="btn-secondary">Work</a>
+        <a href="#" class="btn-secondary">Contact</a>
+      </div>
       <h3>Claudia Carroll</h3>
-       </nav>
+    </div>
 
-   </header>
-      <section class="hero">
-       <h1>A superhuman front end developer.</h1>
-        <img src="./img/SkyImage.jpg" alt="A Picture of the Sky" class="hero">
+    <nav class="desktop-nav" aria-label="Primary">
+      <ul>
+        <li>
+          <a href="project1.html" class="btn-secondary">Work</a>
+        </li>
+        <li>
+          <a href="contact.html" class="btn-secondary">Contact</a>
+        </li>
+      </ul>
+      <h3>Claudia Carroll</h3>
+    </nav>
 
-   </section>
-      <section class="articles-container">
-       <article>
-           <img class="tile" src="./img/Gradient 03.jpg 03.jpg"
-               alt="colourful gradient image" />
-           <h2>Project 1</h2>
-       </article>
-       <article>
-           <img class="tile" src="./img/Gradient 06.jpg 06.jpg"
-               alt="colourful gradient image" />
-           <h2>Project 2</h2>
-       </article>
-       <article>
-           <img class="tile" src="./img/Gradient 07.jpg"
-               alt="colourful gradient image" />
-           <h2>Project 3</h2>
-       </article>
-              <article>
-           <img class="tile" src="./img/Gradient 09.jpg"
-               alt="colourful gradient image" />
-           <h2>Project 4</h2>
-       </article>
+    <nav class="mobile-nav display-none" aria-label="Primary">
+      <ul>
+        <li>
+          <a href="project1.html" class="btn-secondary">Work</a>
+        </li>
+        <li>
+          <a href="contact.html" class="btn-secondary">Work</a>
+        </li>
+      </ul>
+      <h3>Claudia Carroll</h3>
+    </nav>
+
+  </header>
+  <section class="hero">
+    <div class="hero-heading">
+      <h1>A superhuman <br> front end developer.</h1>
+    </div>
+    <div class="header-image">
+      <img src="./img/skinny-sky-pic.jpg" alt="A Picture of the Sky" id="hero-image">
+    </div>
+  </section>
+
+  <section class="articles-container">
+    <article class="article">
+      <img class="tiles" id="tile-1" src="./img/Gradient 03.jpg" alt="colourful gradient image" />
+      <h2>Project 1</h2>
+
+    </article>
+    <article class="article">
+      <img class="tiles" id="tile-2" src="./img/Gradient 06.jpg" alt="colourful gradient image" />
+      <h2>Project 2</h2>
+    </article>
 
 
-   </section>
-   <section class="contact-form">
-       <h2>Talk to me</h2>
-       <form>
-           <label for="your-name">Name</label>
-           <input type="text" id="your-name">
-           <label for="your-email-address">Email</label>
-           <input type="text" id="your-email-address">
-          <label for="message">Your Message</label>
-          <textarea name="message-text" id="message" rows="10"></textarea>
-          <a href="#" class="btn-primary">Send</a>
-       </form>
-   </section>
+    <article class="article">
+      <img class="tiles" id="tile-3" src="./img/Gradient 07.jpg" alt="colourful gradient image" />
+      <h2>Project 3</h2>
+    </article>
+    <article class="article">
+      <img class="tiles" id="tile-4" src="./img/Gradient 09.jpg" alt="colourful gradient image" />
+      <h2>Project 4</h2>
+    </article>
+
+
+
+  </section>
+  <section class="contact-form">
+    <h2>Talk to me</h2>
+    <form>
+      <label for="your-name">Name</label>
+      <input type="text" id="your-name">
+      <label for="your-email-address">Email</label>
+      <input type="text" id="your-email-address">
+      <label for="message">Your Message</label>
+      <textarea name="message-text" id="message" rows="10"></textarea>
+      <a href="#" class="btn-primary" id="send-button">Send</a>
+    </form>
+  </section>
 
   <footer>
-       <a href="" title="Instagram">
-           <img class="socials-icon" src="./img/Instagram-logo-48.png"
-               alt="The Instagram logo: a white outline of a rounded square camera" />
-       </a>
-       <a href="">
-           <img class="socials-icon" src="./img/Github-logo-48.png"
-               alt="The Github logo: a white circle with the outline of a white cat, with one tentacle arm" />
-       </a>
-   </footer>
+    <a href="" title="Instagram">
+      <img class="socials-icon" src="./img/Instagram-logo-48.png"
+        alt="The Instagram logo: a white outline of a rounded square camera" />
+    </a>
+    <a href="">
+      <img class="socials-icon" src="./img/Github-logo-48.png"
+        alt="The Github logo: a white circle with the outline of a white cat, with one tentacle arm" />
+    </a>
+  </footer>
 </body>
 
- </html>
+</html>
