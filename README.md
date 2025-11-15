@@ -39,5 +39,5 @@ I have applied a cute little drop shadow on hover over my buttons as well as a c
 
 
 > Hover States
-![Drop Shadow](<Button-hover.png>)
-![Contrast on hover](<contrast-hover.png>)
+![Button Hover](shecodes/Button-hover.png)
+![Contrast Hover](shecodes/contrast-hover.png)
